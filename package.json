@@ -1,0 +1,30 @@
+{
+  "name": "match-score",
+  "id": "match-score",
+  "version": "0.0.1",
+  "description": "Utility for to calculate pattern match score",
+  "keywords": [ "match", "pattern", "regexp", "score" ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/match-score",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/match-score.git",
+    "web": "https://github.com/Gozala/match-score"
+  },
+  "bugs": {
+    "url": "http://github.com/Gozala/match-score/issues/"
+  },
+  "devDependencies": {
+    "test": ">=0.4.4",
+    "repl-utils": ">=1.0.0"
+  },
+  "main": "./match-score.js",
+  "scripts": {
+    "test": "node test/test-all.js",
+    "repl": "node node_modules/repl-utils"
+  },
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "https://github.com/Gozala/match-score/License.md"
+  }]
+}
